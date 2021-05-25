@@ -1,7 +1,9 @@
 message("NDC")
-
+library(ggalluvial)
+library(glue)
 library(rio)
 library(ggplot2)
+library(gt)
 library(stringr)
 library(tidyr)
 library(dplyr)
@@ -14,7 +16,7 @@ library(dplyr)
 loadfonts(device = "win")
 fonts()
 
-main_font <- "Monterrat"
+main_font <- "Montserrat"
 
 
 dropbox <- "C:/Users/andre/Dropbox/NDC"
@@ -41,4 +43,3 @@ load_functions <- function(dir){
 
 load_functions(dir_functions)
 
-list.files()
