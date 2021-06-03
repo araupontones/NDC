@@ -1,6 +1,6 @@
-#' chart alluvial
+#' chart alluvial triple
 
-chart_alluvial <- function(by,
+chart_alluvial_tripe <- function(by,
                            pal_by =c(ndc_colors("green"),
                                      ndc_colors("blue_navy"),
                                      ndc_colors("purple"),
@@ -9,11 +9,12 @@ chart_alluvial <- function(by,
   
   #name of the argument pass by
   nm <-deparse(substitute(by))
-
+  
   ggplot(data = indicators_alluvial,
          aes(y = freq, 
-             axis1 = MOV, 
-             axis2 = framework)
+             axis1 = type , 
+             axis2 = framework,
+             axis3 = MOV)
   ) +
     #create lines that connect axis----------------------
   geom_alluvium(aes(fill = {{by}}), 
@@ -34,7 +35,7 @@ chart_alluvial <- function(by,
             family = "Montserrat"
   ) +
     #x axis -----------------------------------------------------------------
-  scale_x_discrete(limits = c("MOV", "M&E framework"), 
+  scale_x_discrete(limits = c("MOV", "M&E framework", "Type"), 
                    expand = c(0,0), 
                    position = 'top'
   ) +
@@ -44,7 +45,7 @@ chart_alluvial <- function(by,
   ) +
     #title and captions ---------------------------------------------------------
   labs(title = "MOVs and M&E framework.",
-       subtitle = glue("By data {nm}."),
+       subtitle = glue("By data {nm} and type."),
        caption = "Based on OPM's analysis"
   ) +
     #tema -----------------------------------------------------------------------
@@ -62,14 +63,15 @@ chart_alluvial <- function(by,
   
   
   
-  exfile <- file.path(dir_charts,glue("alluvial_MOVs_{nm}.png"))
+  exfile <- file.path(dir_charts,glue("alluvial_MOVs_triple.png"))
   
   ggsave(exfile,
          last_plot(),
-         width = 17.11,
+         width = 20.11,
          height = 13.5,
          units = 'cm')
   
   return(last_plot())
+  
   
 }
