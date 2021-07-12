@@ -20,12 +20,13 @@ factors_tools <- function(db){
                               ordered = T
            ),
            
+           frequency = str_replace(frequency, "Uknown", "Unknown"),
            frequency = factor(frequency,
                               levels = c("Monthy",
                                          "Quarterly",
                                          "Bi-annually",
                                          "Yearly",
-                                         "Uknown"
+                                         "Unknown"
                               ),
                               ordered = T),
            
@@ -33,16 +34,18 @@ factors_tools <- function(db){
            
            type = factor(type,
                          levels = c("Secondary",
-                                    "Primary",
-                                    "Uknown"),
+                                    "Uknown",
+                                    "Primary"
+                                    ),
                          ordered = T),
            MOV = factor(MOV,
                               levels = c("OPM rev.",
+                                         "Clarifying",
                                          "Annual srvy.",
                                          "Online P.P",
                                          "Monday",
-                                         "KNOOK",
-                                         "Clarifying"),
+                                         "KNOOK"
+                                         ),
                               ordered = T)
     )
   

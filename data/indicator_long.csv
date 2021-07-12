@@ -1,0 +1,72 @@
+Seq,ind_num,Indicator,Baseline,Target,Progress to date,Progress,Level,Pathway,Progress_label,Progress_left
+1,1.1.1,# of member countries with reduced GHG emissions reported between 2021 and 2025 (compared to baselines defined in their respective NDCs),,70,20,0.285714285714286,Impact,Pathway 1,28%,0.714285714285714
+1,1.1.1,# of member countries with reduced GHG emissions reported between 2021 and 2025 (compared to baselines defined in their respective NDCs),,70,20,0.285714285714286,Impact,Pathway 4,28%,0.714285714285714
+1,1.1.2,"# of member countries with enhanced adaptive capacity, strengthened resilience, or reduced vulnerability by 2025 (compared to 2020 levels)",,70,35,0.5,Impact,Pathway 1,50%,0.5
+1,1.1.2,"# of member countries with enhanced adaptive capacity, strengthened resilience, or reduced vulnerability by 2025 (compared to 2020 levels)",,70,35,0.5,Impact,Pathway 4,50%,0.5
+1,1.1.3,"# of implementing and development partner members who have increased climate-related financing and investments from 2020 levels
+",,45,12,0.266666666666667,Impact,Pathway 3,26%,0.733333333333333
+2,2.1.1,"% of member countries receiving Partnership support who are on track     or ahead of schedule in meeting their NDC mitigation and adaptation targets
+a.	Is the country’s emission trajectory in line with achievement of its  target by 2030? (yes/no)
+b.	Is the country on track to meet its adaptation targets by 2030? (yes/no)",,60,30,0.5,Outcome,Pathway 1,50%,0.5
+2,2.1.1,"% of member countries receiving Partnership support who are on track     or ahead of schedule in meeting their NDC mitigation and adaptation targets
+a.	Is the country’s emission trajectory in line with achievement of its  target by 2030? (yes/no)
+b.	Is the country on track to meet its adaptation targets by 2030? (yes/no)",,60,30,0.5,Outcome,Pathway 4,50%,0.5
+2,2.2.1,% of member countries receiving Partnership support that submit an updated NDC with increased ambition6 by 2025,,100,80,0.8,Outcome,Pathway 2,80%,0.2
+2,2.2.2,% of member countries receiving Partnership support that submit an updated NDC with increased ambition6 by 2025,0,70,45,0.642857142857143,Outcome,Pathway 2,64%,0.357142857142857
+3,3.1.1,% of KPIs supported by members and non-members per NDC Action Plan,50,70,57,0.814285714285714,Intermediary Outcome,Pathway 1,82%,0.185714285714286
+3,3.1.2,"Total USD value of assistance provided to member countries by implementing and development partners within the Partnership’s framework (tracked annually)
+a.	Technical assistance
+b.	Project financing (grants only)",70000000,150000000,90000000,0.6,Intermediary Outcome,Pathway 3,60%,0.4
+3,3.1.4,"% of member countries receiving Partnership support reporting:
+a.	Increased capacity and resources for NDC implementation
+b.	Improved whole of society approaches due to Partnership facilitation",60,80,76,0.95,Intermediary Outcome,Pathway 1,96%,0.05
+3,3.1.4,"% of member countries receiving Partnership support reporting:
+a.	Increased capacity and resources for NDC implementation
+b.	Improved whole of society approaches due to Partnership facilitation",60,80,76,0.95,Intermediary Outcome,Pathway 2,96%,0.05
+3,3.2.1,"% of member countries receiving Partnership support that have integrated NDC targets into the next cycle of national/subnational/ sectoral development plans, and/or budgets
+a.	National/subnational/sectoral development plans/national M&E frameworks ;
+b.	Budgets",30,60,60,1,Intermediary Outcome,Pathway 4,100%,0
+3,3.2.2,"# of member countries supported by the Partnership in which low carbon and climate resilient investment projects are mainstreamed in the: 
+a.	national and subnational development plan 
+b.	national and subnational budget",20,40,35,0.875,Intermediary Outcome,Pathway 4,88%,0.125
+3,3.2.3,# of member countries receiving Partnership support that have integrated NDC priorities into economic recovery plans,33,50,40,0.8,Intermediary Outcome,Pathway 4,80%,0.2
+3,3.3.1,"# of investment projects financed through the members of the Partnership (disaggregated by adaptation and mitigation), categorized by:a.          National public sector and blended finance (national and international public and private sector) Private sector",50,150,122,0.813333333333333,Intermediary Outcome,Pathway 3,82%,0.186666666666667
+3,3.3.2,% of member countries receiving Partnership support who have improved their domestic enabling environments,,70,22,0.314285714285714,Intermediary Outcome,Pathway 3,32%,0.685714285714286
+4,4.1.1,"# of partners that have aligned country programming frameworks with  country needs identified through NDC Action Plans7:
+a.	Development partners
+b.	Implementing partners (disaggregated by members/non-members)",30,50,49,0.98,Output,Pathway 1,98%,0.02
+4,4.1.1,"# of partners that have aligned country programming frameworks with  country needs identified through NDC Action Plans7:
+a.	Development partners
+b.	Implementing partners (disaggregated by members/non-members)",30,50,49,0.98,Output,Pathway 3,98%,0.02
+4,4.2.1,"# of Partnership supported NDC action implementation and/or investments plans endorsed by government
+a.	New action plans
+b.	Revised action plans
+c.	New Investment Plans
+d.	Revised Investment Plans",20,60,33,0.55,Output,Pathway 1,56%,0.45
+4,4.2.1,"# of Partnership supported NDC action implementation and/or investments plans endorsed by government
+a.	New action plans
+b.	Revised action plans
+c.	New Investment Plans
+d.	Revised Investment Plans",20,60,33,0.55,Output,Pathway 4,56%,0.45
+4,4.2.2,"% of Partnership supported NDC Action Plans and investment plans aligned with:
+a.	Development plans
+b.	Recovery plans
+c.	Addis Ababa Financing Framework",80,100,97,0.97,Output,Pathway 1,96%,0.03
+4,4.2.2,"% of Partnership supported NDC Action Plans and investment plans aligned with:
+a.	Development plans
+b.	Recovery plans
+c.	Addis Ababa Financing Framework",80,100,97,0.97,Output,Pathway 4,96%,0.03
+4,4.3.1,"% of member countries receiving Partnership support that have engaged key stakeholder groups in NDC planning and implementation  consultations (disaggregated by representatives from sub-national entities, the national gender agency, private sector, and youth groups)",70,100,80,0.8,Output,Pathway 2,80%,0.2
+4,4.4.1,"# of cases in which Partnership support inspired or influenced improved NDC implementation, raised ambition, or led to a follow up   action",30,40,19,0.475,Output,Pathway 1,48%,0.525
+4,4.4.1,"# of cases in which Partnership support inspired or influenced improved NDC implementation, raised ambition, or led to a follow up   action",30,40,19,0.475,Output,Pathway 2,48%,0.525
+4,4.4.2,# of development and implementing partners that provided member countries with new or additional knowledge or knowledge-based capacity development through Partnership engagement,9,30,30,1,Output,Pathway 1,100%,0
+4,4.4.2,# of development and implementing partners that provided member countries with new or additional knowledge or knowledge-based capacity development through Partnership engagement,9,30,30,1,Output,Pathway 2,100%,0
+4,4.4.2,# of development and implementing partners that provided member countries with new or additional knowledge or knowledge-based capacity development through Partnership engagement,9,30,30,1,Output,Pathway 4,100%,0
+4,4.5.1,% of PINs attracting financing in any given year,0,70,55,0.785714285714286,Output,Pathway 3,78%,0.214285714285714
+4,4.5.2,"# of embedded advisors supported by members in (i) ministries of planning/finance, and (ii) sectoral ministries, disaggregated by:
+a.	# of major emerging economies
+b.	# of other countries
+c.	% of advisors disaggregated by gender",1,10,7,0.7,Output,Pathway 3,70%,0.3
+4,4.6.1,"# of implementing and development partners that use Partnership data and insights (from kNook, peer exchanges, knowledge products, or the Knowledge Portal) to program support for NDC Action Plans",8,20,19,0.95,Output,Pathway 1,96%,0.05
+4,4.6.1,"# of implementing and development partners that use Partnership data and insights (from kNook, peer exchanges, knowledge products, or the Knowledge Portal) to program support for NDC Action Plans",8,20,19,0.95,Output,Pathway 2,96%,0.05
+4,4.6.1,"# of implementing and development partners that use Partnership data and insights (from kNook, peer exchanges, knowledge products, or the Knowledge Portal) to program support for NDC Action Plans",8,20,19,0.95,Output,Pathway 3,96%,0.05

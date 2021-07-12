@@ -25,7 +25,7 @@ indicators_alluvial <- indicators_raw %>%
 #create alluvial -------------------------------------------------------------------
 
 chart_alluvial(by = type,
-               pal_by = c(ndc_colors("yellow"),ndc_colors("green"), "grey"))
+               pal_by = c(ndc_colors("yellow"), "grey", ndc_colors("green")))
 
 chart_alluvial(by = frequency,
                pal_by =c(ndc_colors("green"),

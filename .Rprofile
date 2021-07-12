@@ -1,3 +1,5 @@
+options("scipen"=100, "digits"=4)
+
 message("NDC")
 library(ggalluvial)
 library(glue)
@@ -26,7 +28,7 @@ dropbox_ds <- file.path(dropbox, "1. Data collection design")
 
 dir_functions <- 'functions'
 dir_charts <- 'charts'
-
+dir_data <- "data"
 load_functions <- function(dir){
   
   funciones = list.files(dir, full.names = T, pattern = ".R")
